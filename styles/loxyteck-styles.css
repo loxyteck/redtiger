@@ -1,0 +1,129 @@
+body {
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Fira Code', monospace;
+    background-color: #0C0C0C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px; 
+    padding-top: 200px;
+    
+}
+
+.img-logo {
+    max-width: 300px;
+    border-radius: 1000px;
+    border: 2px solid white;
+}
+
+.p-name {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.div-button-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #292929;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    width: 400px;
+    font-family: 'Fira Code', monospace;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.button-link img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.img-redtiger {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.span-button-link {
+    display: flex; 
+    align-items: center;
+}
+
+.button-link:hover {
+    transform: scale(1.1);
+    color: #292929;
+    background-color: #ffffff;
+}
+
+.div-footer-box {
+    padding-top: 375px;
+    width: 100vw;
+
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw); 
+    margin-bottom: calc(50% - 50vw); 
+}
+
+footer {
+    background-color: #161616;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 5%;
+    padding-left: 10%;
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .img-logo {
+        max-width: 200px;
+    }
+
+    .p-name {
+        padding-top: 80px;
+        font-size: 25px;
+    }
+
+    .button-link {
+        padding: 20px 40px;
+        margin-bottom: 20px;
+        width: 250px;
+        font-size: 15px;
+    }
+
+    .button-link img {
+        width: 30px;
+    }
+
+    .div-footer-box {
+        padding-top: 100px;
+    }
+
+    footer {
+        font-size: 20px;
+    
+    }
+}
